@@ -1,0 +1,25 @@
+.nav
+{
+  background-color: #454444;
+  /*height: 5vh;*/
+  width: 98vw;
+  position: fixed;
+  opacity: .9;
+  padding: 10px;
+}
+
+.nav ul li
+{
+  list-style: none;
+  float: right;
+  padding: 5px;
+  padding: 5px;
+  color: white;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.nav ul li:hover
+{
+  border: 2px solid white;
+  border-radius: 10px;
+}

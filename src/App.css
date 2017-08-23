@@ -1,0 +1,19 @@
+.app
+{
+  height: 100vh;
+  padding: 20px;
+  background-image: url('./20170701_052352_HDR-2.jpg');
+  background-size:cover;
+  background-position:center;
+}
+
+.info
+{
+  background-color: #454444;
+  height: 84vh;
+  margin-top: 55px;
+  opacity: .9;
+  overflow-y: scroll;
+  padding: 30px;
+  color: white;
+}
