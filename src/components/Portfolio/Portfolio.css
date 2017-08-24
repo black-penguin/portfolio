@@ -1,5 +1,50 @@
 .portfolio
 {
   display: flex;
-  justify-content: center;
+  /*align-items: stretch;*/
+  flex-direction: column;
+}
+
+.portfolio h2
+{
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.portfolio h3
+{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+img
+{
+  width: 350px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.left img
+{
+  float: left;
+}
+
+.right img
+{
+  float: right;
+}
+
+.social h1
+{
+
+}
+
+.social #link
+{
+  width: 50px;
+}
+.social #link:hover
+{
+  opacity: .6;
 }

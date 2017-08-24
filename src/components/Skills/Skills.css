@@ -1,1 +1,17 @@
+.skills
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills h1
+{
+  padding-bottom: 20px;
+  font-size: 30px;
+}
 
+.skills h2
+{
+  padding-bottom: 20px;
+  font-size: 20px;
+}

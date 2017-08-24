@@ -4,3 +4,13 @@
   align-items: center;
   flex-direction: column;
 }
+
+.home h1
+{
+  font-size: 40px;
+}
+.home h2
+{
+  padding-bottom: 20px;
+  font-size: 20px;
+}
