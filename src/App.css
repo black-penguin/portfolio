@@ -11,9 +11,9 @@
 {
   background-color: #454444;
   height: 84vh;
-  margin-top: 60px;
-  opacity: .9;
   overflow-y: scroll;
+  margin-top: 60px;
+  opacity: .8;
   padding: 30px;
   color: white;
 }

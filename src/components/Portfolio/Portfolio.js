@@ -13,7 +13,7 @@ export default class Portfolio extends Component {
         <div className="left">
           <img src={amidstTheMountains} alt="screenshot of site" />
           <h2>AmidstTheMountains | Personal</h2>
-          <h3>Using React, Auth0, Stripe, Node, and PostgreSql this site is designed to display and allow others to purchase different Photographs that I have taken over the years</h3>
+          <h3>Using React, Auth0, Stripe, Node, and PostgreSql this site is designed to display my photographs that I have taken over the years and allow others to purchase them on Canvas or Metal Prints</h3>
           <div className="social">
             <a href="https://github.com/black-penguin/Personal_Project">
               <img id ="link" src={gitHub} alt ='github' />
@@ -26,7 +26,7 @@ export default class Portfolio extends Component {
             </a>
           </div>
         </div>
-        <div className="right">
+        <div className="left">
           <img src={rooMinder} alt="screenshot of site" />
           <h2>RooMinder | Group</h2>
           <h3>Using React, Auth0, Node, PostgreSql, FlightStats api, and googles api this site is designed to allow users to enter in a flight number, date, and location, and it will give them the directions to the airport, when they should leave to pick the person up, and reminders based from the preferences they set</h3>
@@ -34,7 +34,7 @@ export default class Portfolio extends Component {
             <a href="#">
               <img id ="link" src={video} alt ='github' />
             </a>
-            <a href="roomind.me">
+            <a href="https://roomind.me">
               <img id ="link" src={live} alt ='github' />
             </a>
             <a href="https://github.com/FriendFlight/FriendFlight">

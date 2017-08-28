@@ -4,8 +4,9 @@
   /*height: 5vh;*/
   width: 98vw;
   position: fixed;
-  opacity: .9;
+  opacity: .8;
   padding: 10px;
+  z-index: 3;
 }
 
 .nav ul li
