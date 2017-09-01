@@ -2,17 +2,23 @@
 {
   background-color: #454444;
   /*height: 5vh;*/
-  width: 98vw;
-  position: fixed;
+  /*width: 95vw;*/
+  /*position: fixed;*/
   opacity: .8;
   padding: 10px;
-  z-index: 3;
+  /*z-index: 3;*/
+}
+.nav ul
+{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
 }
 
 .nav ul li
 {
   list-style: none;
-  float: right;
+  /*float: right;*/
   padding: 5px;
   padding: 5px;
   color: white;

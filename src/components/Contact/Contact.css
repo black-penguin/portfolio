@@ -6,6 +6,7 @@
   margin-top: 20px;
 }
 
+
 .contact h1
 {
   font-size: 30px;
@@ -13,15 +14,23 @@
   margin-bottom: 20px;
 }
 
-.contact a
+.contact div
+{
+  display: flex;
+}
+
+.contact img
 {
   font-size: 20px;
   text-decoration: none;
-  color: white;
+  /*color: white;*/
+  width: 50px;
+  margin: 20px;
   margin-bottom: 40px;
 }
 
 .contact a:hover
 {
-  text-decoration: underline;
+  opacity: .6;
+  /*text-decoration: underline;*/
 }
