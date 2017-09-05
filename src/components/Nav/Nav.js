@@ -6,11 +6,11 @@ export default class Nav extends Component {
     return (
       <div className="nav">
         <ul>
-          <li>Contact</li>
-          <li>Portfolio</li>
-          <li>Skills</li>
-          <li>About</li>
-          <li>Home</li>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#Portfolio">Portfolio</a></li>
+          <li><a href="#Contact">Contact</a></li>
         </ul>
       </div>
     );

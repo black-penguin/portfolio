@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Portfolio.css';
-import amidstTheMountains from './jpg/amidstTheMountains.JPG';
-import rooMinder from './jpg/rooMinder.JPG';
+import amidstTheMountains from '../jpg/amidstTheMountains.jpg';
+import rooMinder from '../jpg/rooMinder.JPG';
 import gitHub from '../jpg/GitHub-Mark-Light-120px-plus.png';
 import live from '../jpg/globe.svg';
 import video from '../jpg/video-camera.svg';
@@ -22,9 +22,6 @@ export default class Portfolio extends Component {
             <a href="https://amidstthemountains.com">
               <img id ="link" src={live} alt ='github' />
             </a>
-            <a href="#">
-              <img id ="link" src={video} alt ='github' />
-            </a>
           </div>
         </div>
         <div className="left">
@@ -38,9 +35,6 @@ export default class Portfolio extends Component {
             </a>
             <a href="https://roomind.me">
               <img id ="link" src={live} alt ='github' />
-            </a>
-            <a href="#">
-              <img id ="link" src={video} alt ='github' />
             </a>
           </div>
         </div>

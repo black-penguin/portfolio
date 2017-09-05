@@ -10,14 +10,13 @@
 }
 .nav ul
 {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-start;
-}
-
-.nav ul li
-{
   list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav a
+{
+  text-decoration: none;
   /*float: right;*/
   padding: 5px;
   padding: 5px;
@@ -26,7 +25,7 @@
   margin-left: 5px;
   cursor: pointer;
 }
-.nav ul li:hover
+.nav a:hover
 {
   border: 2px solid white;
   border-radius: 10px;
