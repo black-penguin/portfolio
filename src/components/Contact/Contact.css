@@ -25,8 +25,16 @@
   text-decoration: none;
   /*color: white;*/
   width: 50px;
-  margin: 20px;
+  margin: 20px 20px 5px 20px;
+}
+
+.contact a
+{
+  color: white;
+  text-decoration: none;
+  text-align: center;
   margin-bottom: 40px;
+  font-size: 20px;
 }
 
 .contact a:hover

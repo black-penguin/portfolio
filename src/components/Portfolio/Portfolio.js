@@ -16,12 +16,18 @@ export default class Portfolio extends Component {
           <h3>React | Redux | Rest API | ES6 | Node | PostgreSQL | Auth0 | Stripe</h3>
           <h3>This site is designed to display my photographs that I have taken over the years and allow others to purchase them on Canvas or Metal Prints</h3>
           <div className="social">
-            <a href="https://github.com/black-penguin/Personal_Project">
-              <img id ="link" src={gitHub} alt ='github' />
-            </a>
-            <a href="https://amidstthemountains.com">
-              <img id ="link" src={live} alt ='github' />
-            </a>
+            <div id="link">
+              <a href="https://github.com/black-penguin/Personal_Project">
+                <img src={gitHub} alt ='github' />
+                <h3>Github</h3>
+              </a>
+            </div>
+            <div id="link">
+              <a href="https://amidstthemountains.com">
+                <img src={live} alt ='github' />
+                <h3>Live</h3>
+              </a>
+            </div>
           </div>
         </div>
         <div className="left">
@@ -30,12 +36,18 @@ export default class Portfolio extends Component {
           <h3>React | Node | PostgreSQL | Auth0 | Flight Stats Api | Twilio | Nodemailer | 4 Google Apis</h3>
           <h3>This site is designed to allow users to enter in a flight number, date, and location, and it will give them the directions to the airport and notifications on when to leave</h3>
           <div className="social">
-            <a href="https://github.com/FriendFlight/FriendFlight">
-              <img id ="link" src={gitHub} alt ='github' />
-            </a>
-            <a href="https://roomind.me">
-              <img id ="link" src={live} alt ='github' />
-            </a>
+            <div id="link">
+              <a href="https://github.com/FriendFlight/FriendFlight">
+                <img src={gitHub} alt ='github' />
+                <h3>Github</h3>
+              </a>
+            </div>
+            <div id="link">
+              <a href="https://roomind.me">
+                <img src={live} alt ='live' />
+                <h3>Live</h3>
+              </a>
+            </div>
           </div>
         </div>
       </div>

@@ -14,15 +14,19 @@ export default class Contact extends Component {
         <div>
           <a href="https://github.com/black-penguin">
             <img src={gitHub} alt ='github' />
+            <h3>Github</h3>
           </a>
           <a href="https:/www.linkedin.com/in/austin-wheelwright">
             <img src={linkedin} alt ='linkedin' />
+            <h3>Linkedin</h3>
           </a>
           <a href="https://drive.google.com/file/d/0B6BHNYAJlMa9RUpXenpnZWFwcGM/view?usp=sharing">
             <img src={resume} alt ='resume' />
+            <h3>Resume</h3>
           </a>
-          <a href="mailto:austin@amidstthemountains.com">
+          <a href="mailto:austin@austinwheelwright.com">
             <img src={email} alt ='email' />
+            <h3>austin@austinwheelwright.com</h3>
           </a>
         </div>
       </div>
